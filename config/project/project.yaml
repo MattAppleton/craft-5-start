@@ -1,4 +1,4 @@
-dateModified: 1720468122
+dateModified: 1722930218
 email:
   fromEmail: ryan@craftquest.io
   fromName: 'House Quest'
@@ -14,9 +14,21 @@ fs:
 meta:
   __names__:
     9bebaaa3-6d87-4c75-afc8-f5f75ab950c4: Images # Images
+    38bbad09-601f-4d78-ae44-783fdf32356d: 'Rich text' # Rich text
+    87e9e3c3-0c05-46a0-8211-444007205421: Homepage # Homepage
     620caa93-2603-4217-9713-700e82292681: 'Public Schema' # Public Schema
+    740aa2f0-f203-4c87-9516-423ee8953ddc: 'Market News' # Market News
+    432614e7-ce08-4ea6-9058-f689f1a25a04: 'Plain text' # Plain text
     4052097c-4aec-4442-af4c-df0a26b20065: 'Craft 5' # Craft 5
+    c24a1f02-cbc9-4215-987c-0ee6637463fa: Simple # Simple
     d9d1ae21-b5ed-442d-bc28-0e3aa8b8c39b: 'Craft 5' # Craft 5
+    e4878346-3fbf-48ad-8efd-b98ea12b9239: 'Market News' # Market News
+    fa333cb0-3fa0-4e7b-93dd-17a3629edd3a: Homepage # Homepage
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: pro
   live: true

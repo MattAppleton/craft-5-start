@@ -1,0 +1,80 @@
+color: orange
+fieldLayouts:
+  a7f3abeb-85ec-40c4-839d-782d3e914ad1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 457978db-f375-4667-bc51-55e7c03d588c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 432614e7-ce08-4ea6-9058-f689f1a25a04 # Plain text
+            handle: newsExcerpt
+            includeInCards: false
+            instructions: null
+            label: 'News excerpt'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d64b2ad9-73cd-4d5d-86f8-74c4b4eae76e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 38bbad09-601f-4d78-ae44-783fdf32356d # Rich text
+            handle: newsBody
+            includeInCards: false
+            instructions: null
+            label: 'News body'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4ce7b4b6-da32-40c7-8d07-b7a28ed21d38
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d0cb0318-05a1-406f-a453-1500ccd63588
+        userCondition: null
+handle: marketNews
+hasTitleField: true
+icon: newspaper
+name: 'Market News'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
